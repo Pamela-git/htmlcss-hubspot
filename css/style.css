@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* regole generali container */
+.container {
+  width: 80%;
+  margin: auto;
+  /* debug */
+  /* background-color: red; */
+  height: 1000px;
+  /* debug */
+}
+
+header {
+  height: 50px;
+}
+
+.jumbotron{
+  position: relative;
+  display: inline-block;
+}
+
+.jumbotron img {
+  max-width: 100%;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+}
+
+.jumbotron h5, h6{
+  margin: 15px 0;
+}
+
+.jumbotron-text {
+  width: 450px;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  margin: 50px;
+}
