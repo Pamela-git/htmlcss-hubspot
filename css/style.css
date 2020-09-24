@@ -9,7 +9,7 @@
   width: 80%;
   margin: auto;
   /* debug */
-  /* background-color: red; */
+  background-color: rgb(244, 249, 253);
   height: 1000px;
   /* debug */
 }
@@ -43,8 +43,10 @@ header {
   margin: 50px;
 }
 
+
 .titolo {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .titolo p {
@@ -59,4 +61,48 @@ header {
 
 .cubo img {
   max-width: 100%;
+}
+
+#CRM {
+  float: left;
+  width: 20%;
+  background-color: white;
+  margin-left: 5%;
+}
+
+#CRM img {
+  width: 100px;
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#Text-CRM {
+  float: left;
+  width: 70%;
+  background-color: white;
+  margin-right: 5%;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+}
+
+.box p, span{
+  margin: 5px 0;
+}
+
+.box h3, hr{
+  display: inline-block;
+}
+
+.box hr {
+  width: 400px;
+  margin: 0 20px;
+}
+
+
+main {
+  background-color: lightgrey;
 }
