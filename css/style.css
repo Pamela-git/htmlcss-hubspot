@@ -68,13 +68,14 @@ header {
   width: 20%;
   background-color: white;
   margin-left: 5%;
+  text-align: center;
 }
 
 #CRM img {
   width: 100px;
   margin: auto;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 #Text-CRM {
