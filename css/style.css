@@ -42,3 +42,21 @@ header {
   left: 20px;
   margin: 50px;
 }
+
+.titolo {
+  text-align: center;
+}
+
+.titolo p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.cubo {
+  width: 100px;
+  margin: auto;
+}
+
+.cubo img {
+  max-width: 100%;
+}
