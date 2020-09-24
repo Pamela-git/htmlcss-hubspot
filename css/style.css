@@ -8,10 +8,18 @@
 .container {
   width: 80%;
   margin: auto;
-  /* debug */
   background-color: rgb(244, 249, 253);
-  height: 1000px;
-  /* debug */
+}
+
+.buttom {
+  text-align: center;
+}
+.buttom a[href="#"] {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 header {
@@ -67,7 +75,7 @@ header {
   float: left;
   width: 20%;
   background-color: white;
-  margin-left: 5%;
+  margin-left: 4%;
   text-align: center;
 }
 
@@ -80,9 +88,10 @@ header {
 
 #Text-CRM {
   float: left;
-  width: 70%;
+  width: 72%;
   background-color: white;
-  margin-right: 5%;
+  margin-right: 4%;
+  text-align: left;
 }
 
 .box {
@@ -90,11 +99,7 @@ header {
   padding: 10px;
 }
 
-.box p, span{
-  margin: 5px 0;
-}
-
-.box h3, hr{
+.box h3, hr, p {
   display: inline-block;
 }
 
@@ -103,7 +108,48 @@ header {
   margin: 0 20px;
 }
 
+#services-latosx {
+  float: left;
+  width: 30%;
+  margin-left: 3%;
+}
 
-main {
-  background-color: lightgrey;
+#services-latodx{
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+}
+#services-centro {
+  float: left;
+  width: 30%;
+  margin: 0 2%;
+}
+
+.second-boxes img {
+  width: 80px;
+  margin: auto;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.second-boxes {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+.second-boxes h2, p, h3 {
+  text-align: center;
+  margin: 5px;
+}
+
+.second-boxes hr {
+  width: 200px;
+  margin: 30px 20px;
+}
+
+
+.second-boxes ul {
+  list-style-type: none;
+  margin: 20px 0;
 }
