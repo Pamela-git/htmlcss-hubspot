@@ -22,8 +22,34 @@
   padding: 10px;
 }
 
-header {
-  height: 50px;
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  /* border-bottom: 1px solid black; */
+  margin-left: 70px;
+  padding: 20px 0;
+}
+
+.nav-right{
+display: inline-block;
+margin-right: 70px;
+padding: 20px 0;
+}
+
+select {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: rgb(244, 249, 253);
+}
+
+select:focus{
+        outline: none;
+        background-color: none;
+        border: 0px solid;
 }
 
 .jumbotron{
