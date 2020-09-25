@@ -6,9 +6,15 @@
 
 /* regole generali container */
 .container {
-  width: 80%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
   background-color: rgb(244, 249, 253);
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .buttom {
@@ -101,7 +107,7 @@ select:focus{
   float: left;
   width: 20%;
   background-color: white;
-  margin-left: 4%;
+  margin-left: 10%;
   text-align: center;
 }
 
@@ -114,10 +120,9 @@ select:focus{
 
 #Text-CRM {
   float: left;
-  width: 72%;
+  width: 60%;
   background-color: white;
-  margin-right: 4%;
-  text-align: left;
+  margin-right: 10%;
 }
 
 .box {
@@ -125,7 +130,7 @@ select:focus{
   padding: 10px;
 }
 
-.box h3, hr, p {
+.box h3, hr, {
   display: inline-block;
 }
 
@@ -136,46 +141,53 @@ select:focus{
 
 #services-latosx {
   float: left;
-  width: 30%;
-  margin-left: 3%;
+  width: 27%;
+  margin-left: 6%;
 }
 
 #services-latodx{
   float: left;
-  width: 30%;
-  margin-right: 3%;
+  width: 27%;
+  margin-right: 6%;
 }
 #services-centro {
   float: left;
-  width: 30%;
-  margin: 0 2%;
+  width: 27%;
+  margin: 0 3%;
 }
 
-.second-boxes img {
+.scatola img {
   width: 80px;
   margin: auto;
   display: block;
   margin-bottom: 25px;
 }
 
-.second-boxes {
+.scatola {
   margin: 10px;
   padding: 10px;
   background-color: white;
 }
 
-.second-boxes h2, p, h3 {
+div.scatola  h2, h3 {
   text-align: center;
   margin: 5px;
 }
 
-.second-boxes hr {
+.scatola hr {
   width: 200px;
   margin: 30px 20px;
 }
 
 
-.second-boxes ul {
+.scatola ul {
   list-style-type: none;
   margin: 20px 0;
+}
+
+#contenuto {
+  background-color: rgb(0, 181, 172);
+  text-align: center;
+  padding: 40px;
+  margin-top: 20px;
 }
