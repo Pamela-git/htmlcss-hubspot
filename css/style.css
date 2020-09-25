@@ -7,7 +7,6 @@
 /* regole generali container */
 .container {
   width: 100%;
-  /* margin: auto; */
   background-color: rgb(244, 249, 253);
 }
 
@@ -93,16 +92,16 @@ select:focus{
   font-size: 40px;
 }
 
-.jumbotron h5, h6{
-  margin: 15px 0;
-}
-
 .jumbotron-text {
   width: 450px;
   display: inline-block;
   position: absolute;
   left: 20px;
   margin: 50px;
+}
+
+.jumbotron-text h5, h6 {
+  margin: 30px 0;
 }
 
 
@@ -208,7 +207,7 @@ div.scatola  h2, h3 {
 }
 
 #contenuto {
-  background-color: rgb(0, 181, 172);
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   text-align: center;
   padding: 40px;
   margin-top: 20px;
@@ -237,4 +236,133 @@ div.scatola  h2, h3 {
 
 .colonna4 h2 {
   margin: 16px 0;
+}
+
+.contenitore-sponsor {
+  padding: 60px;
+  background-color: white;
+}
+
+.left-sponsor {
+  float: left;
+  width: 10%;
+  margin-left: 5%;
+}
+
+.sponsors {
+  float: left;
+  width: 10%;
+  margin-left: 30%;
+}
+
+.sponsorsimg {
+  margin: 10px 0;
+}
+
+.first {
+  margin-bottom: 50px;
+}
+
+.four {
+  margin-bottom: 40px;
+}
+
+.sponsorsimg img {
+  width: 100px;
+}
+
+.nomg {
+  margin: 0 0;
+}
+
+.chinese-girl-left {
+  float: left;
+  width: 30%;
+  margin-right: 20%;
+}
+
+.chinese-girl-right {
+  float: right;
+  width: 50%;
+  margin: 0 0;
+  position: relative;
+}
+
+.chinese-girl img {
+  width: 250px;
+  position: absolute;
+  right: 30px;
+  margin-right: 150px;
+}
+
+.pubblicità h1, p {
+  margin: 30px 0;
+}
+
+.pubblicità div {
+  margin-top: 30px;
+}
+
+footer{
+  background-color: rgb(50, 73, 91);
+  padding: 60px;
+  color: white;
+}
+.lists {
+  float: left;
+  width: calc(100% / 4);
+  color: white;
+}
+
+a[href="#lista"] {
+  display: block;
+  margin: 20px 0;
+  color: white;
+}
+
+.buttom3 {
+  margin: 20px;
+}
+
+.buttom3 a[href="#"] {
+  background-color: white;
+  color: Black;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.fa-instagram {
+  margin: 0 7px;
+}
+
+.fa-twitter {
+  margin: 0 7px;
+}
+
+.footer-mid {
+  margin: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-mid hr {
+  margin: 20px 0;
+}
+
+.credits {
+  float: left;
+  width: 50%;
+}
+.destra {
+  float: right;
+  width: 20%;
+  margin-left: 30%;
+}
+.credits span {
+  display: block;
+}
+
+.credit span {
+  margin: 0 5px;
 }
