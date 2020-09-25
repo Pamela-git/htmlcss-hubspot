@@ -11,10 +11,15 @@
   background-color: rgb(244, 249, 253);
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .buttom {
@@ -135,7 +140,7 @@ select:focus{
 }
 
 .box hr {
-  width: 400px;
+  width: 200px;
   margin: 0 20px;
 }
 
@@ -170,13 +175,13 @@ select:focus{
 }
 
 div.scatola  h2, h3 {
-  text-align: center;
+  /* text-align: center; */
   margin: 5px;
 }
 
 .scatola hr {
   width: 200px;
-  margin: 30px 20px;
+  margin: 20px 20px;
 }
 
 
@@ -190,4 +195,29 @@ div.scatola  h2, h3 {
   text-align: center;
   padding: 40px;
   margin-top: 20px;
+  color: white;
+}
+
+#contenuto p {
+  margin: 10px;
+}
+
+#parte-1 {
+  margin-bottom: 20px;
+}
+
+.griglia {
+  float: left;
+  width: calc(100% / 4);
+  min-height: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.riga1 h2 {
+  margin: 10px 0;
+}
+
+.colonna4 h2 {
+  margin: 16px 0;
 }
