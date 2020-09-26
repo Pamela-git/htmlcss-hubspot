@@ -26,11 +26,13 @@ a {
 
 .buttom {
   text-align: center;
-  margin-top; 20px;
+  margin-top: 20px;
 }
+
 .buttom a[href="#"] {
   background-color: orange;
   color: white;
+  font-weight: bold;
   text-decoration: none;
   border-radius: 15px;
   padding: 10px;
@@ -39,9 +41,20 @@ a {
 .buttom2 a[href="#"] {
   background-color: orange;
   color: white;
+  font-weight: bold;
   text-decoration: none;
   border-radius: 15px;
   padding: 10px;
+}
+
+a[href="#bottone1"] {
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid orange;
 }
 
 .fa-check-circle {
@@ -117,8 +130,9 @@ select:focus{
   margin: 50px;
 }
 
-.jumbotron-text h5, h6 {
+.jumbotron-text h5 {
   margin: 30px 0;
+  font-weight: normal;
 }
 
 /* Parte iniziale del main */
@@ -149,11 +163,12 @@ select:focus{
   background-color: white;
   margin-left: 10%;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 10px;
 }
 
-#CRM img {
-  width: 100px;
+.box img {
+  width: 110px;
+  height: 128px;
   margin: auto;
   display: block;
   margin-bottom: 25px;
@@ -164,7 +179,7 @@ select:focus{
   width: 60%;
   background-color: white;
   margin-right: 10%;
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 0;
 }
 
 /* regole div all'interno dei float CRM */
@@ -203,6 +218,7 @@ select:focus{
 /* regole div all'interno dei 3 blocchi in float */
 .scatola img {
   width: 80px;
+  height: 84px;
   margin: auto;
   display: block;
   margin-bottom: 25px;
@@ -256,15 +272,23 @@ div.scatola  h2, h3 {
   width: calc(100% / 4);
   min-height: 100%;
   padding: 5px;
-  margin-top: 10px;
+}
+
+.bordotop {
+  border-top: 1px solid white;
+}
+
+.bordodx {
+  border-right: 1px solid white;
 }
 
 .riga1 h2 {
   margin: 10px 0;
 }
 
-.colonna4 h2 {
-  margin: 16px 0;
+.foto > img {
+  width: 34px;
+  height: 33px;
 }
 
 /* parte degli sponsor */
@@ -285,11 +309,15 @@ div.scatola  h2, h3 {
   margin-left: 30%;
 }
 
+.ended h2 {
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+/* regole immagini sponsors */
 .sponsorsimg {
   margin: 10px 0;
 }
 
-/* regole immagini sponsors */
 .first {
   margin-bottom: 50px;
 }
@@ -300,10 +328,15 @@ div.scatola  h2, h3 {
 
 .sponsorsimg img {
   width: 100px;
+  height: 100%;
 }
 
 .nomg {
   margin: 0 0;
+}
+
+.pubblicità h1 {
+  font-family: 'Nunito', sans-serif;
 }
 
 /* blocco inferiore sponsor */
@@ -363,6 +396,7 @@ a[href="#lista"] {
 .buttom3 a[href="#"] {
   background-color: white;
   color: Black;
+  font-weight: bold;
   text-decoration: none;
   border-radius: 15px;
   padding: 10px;
@@ -400,6 +434,7 @@ a[href="#lista"] {
 }
 .credits span {
   display: block;
+  font-weight: bold;
 }
 
 .credit span {
