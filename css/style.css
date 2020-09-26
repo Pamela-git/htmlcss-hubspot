@@ -9,6 +9,7 @@
 .container {
   width: 100%;
   background-color: rgb(244, 249, 253);
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 /* regole generali clearfix, link, bottoni e icone */
@@ -25,6 +26,7 @@ a {
 
 .buttom {
   text-align: center;
+  margin-top; 20px;
 }
 .buttom a[href="#"] {
   background-color: orange;
@@ -58,6 +60,16 @@ a {
   background-color: white;
 }
 
+#bold {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+a[href="#bold"] {
+  font-weight: bold;
+  font-size: 15px;
+}
+
 /* Nav dentro Header */
 nav {
   margin-left: 70px;
@@ -80,7 +92,6 @@ select {
 
 select:focus{
         outline: none;
-        background-color: none;
         border: 0px solid;
 }
 
@@ -138,6 +149,7 @@ select:focus{
   background-color: white;
   margin-left: 10%;
   text-align: center;
+  border-radius: 10px;
 }
 
 #CRM img {
@@ -152,6 +164,7 @@ select:focus{
   width: 60%;
   background-color: white;
   margin-right: 10%;
+  border-radius: 10px;
 }
 
 /* regole div all'interno dei float CRM */
@@ -160,7 +173,7 @@ select:focus{
   padding: 10px;
 }
 
-.box h3, hr, {
+.box h3, hr {
   display: inline-block;
 }
 
@@ -197,12 +210,14 @@ select:focus{
 
 .scatola {
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   background-color: white;
+  border-radius: 10px;
 }
 
 div.scatola  h2, h3 {
   margin: 5px;
+  text-align: center;
 }
 
 .scatola hr {
@@ -366,11 +381,12 @@ a[href="#lista"] {
   margin: 40px 0;
   text-align: center;
   color: white;
+  border-bottom: 1px solid white;
 }
 
-.footer-mid hr {
+/* .footer-mid hr {
   margin: 20px 0;
-}
+} */
 
 /* parte credits del footer */
 .credits {
