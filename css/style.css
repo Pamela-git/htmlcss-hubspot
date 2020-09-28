@@ -142,7 +142,7 @@ select:focus{
 }
 
 .titolo p {
-  font-size: 10px;
+  font-size: 15px;
   margin-top: 10px;
 }
 
@@ -157,13 +157,17 @@ select:focus{
 }
 
 /* Parte CRM */
+.bigbox{
+  margin: 20px 95px;
+  background-color: white;
+  border-radius: 10px;
+}
+
 #CRM {
   float: left;
   width: 20%;
-  background-color: white;
   margin-left: 10%;
   text-align: center;
-  border-radius: 10px 10px 0 10px;
 }
 
 .box img {
@@ -177,9 +181,7 @@ select:focus{
 #Text-CRM {
   float: left;
   width: 60%;
-  background-color: white;
   margin-right: 10%;
-  border-radius: 10px 10px 10px 0;
 }
 
 /* regole div all'interno dei float CRM */
@@ -334,10 +336,6 @@ div.scatola  h2, h3 {
 
 .nomg {
   margin: 0 0;
-}
-
-.pubblicità h1 {
-  font-family: 'Nunito', sans-serif;
 }
 
 /* blocco inferiore sponsor */
